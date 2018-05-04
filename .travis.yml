@@ -1,10 +1,20 @@
 language: python
 python:
+  ' "2.6"
   - "2.7"
+  - "3.3"
+  - "3.4"
+  - "3.5"
   - "3.6"
+  - "3.7"
 # command to install dependencies
 install:
   - pip install -r requirements.txt
 script:
-  - python bing_dorker.py  # Python2
-  - python bing_dorker3.py # Python3
+  - if [[ $TRAVIS_PYTHON_VERSION == 2.6 ]]; then python bing_dorker.py < travis_params.txt; fi #Python2
+  - if [[ $TRAVIS_PYTHON_VERSION == 2.7 ]]; then python bing_dorker.py < travis_params.txt; fi #Python2
+  - if [[ $TRAVIS_PYTHON_VERSION == 3.3 ]]; then python bing_dorker3.py < travis_params.txt; fi #Python3
+  - if [[ $TRAVIS_PYTHON_VERSION == 3.4 ]]; then python bing_dorker3.py < travis_params.txt; fi #Python3
+  - if [[ $TRAVIS_PYTHON_VERSION == 3.5 ]]; then python bing_dorker3.py < travis_params.txt; fi #Python3
+  - if [[ $TRAVIS_PYTHON_VERSION == 3.6 ]]; then python bing_dorker3.py < travis_params.txt; fi #Python3
+  - if [[ $TRAVIS_PYTHON_VERSION == 3.7 ]]; then python bing_dorker3.py < travis_params.txt; fi #Python3
