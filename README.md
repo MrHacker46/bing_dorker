@@ -1,4 +1,4 @@
-# Bing Dorker ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg) -  [![codecov.io Code Coverage](https://img.shields.io/codecov/c/github/dwyl/hapi-auth-jwt2.svg?maxAge=2592000)](https://codecov.io/github/dwyl/hapi-auth-jwt2?branch=master) - [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+# Bing Dorker ![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg) -  [![codecov.io Code Coverage](https://img.shields.io/codecov/c/github/dwyl/hapi-auth-jwt2.svg?maxAge=2592000)](https://codecov.io/github/dwyl/hapi-auth-jwt2?branch=master) - [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) - [![HitCount](http://hits.dwyl.io/cr4shcod3/bing_dorker.svg)](http://hits.dwyl.io/cr4shcod3/bing_dorker)
 
 > Bing Dorker is a python script to automate searching for hundreds of website within a minute. It can also be used in ethichal hacking / penetration testing.
 
